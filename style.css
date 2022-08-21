@@ -6,7 +6,7 @@ body {
 
 .header {
 	background-image: url(img/background.jpg);
-	height: 100vh;
+	min-height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -206,6 +206,7 @@ body {
 	color: #BC9060;
 	margin-left: 8px;
 }
+
 .card-desc {
 	display: flex;
 	font-family: 'Tinos', serif;
@@ -223,7 +224,6 @@ body {
 	margin-top: 166px;
 	padding: 150px;
 }
-
 
 .history-holder {
 	display: flex;
@@ -289,7 +289,6 @@ body {
 	position: relative;
 }
 
-
 .black-blok {
 	background-image: url(img/black-bg.jpg);
 	padding: 80px 0;
@@ -300,7 +299,7 @@ body {
 	font-family: Tinos;
 	font-weight: 400;
 	font-size: 52px; 
-	Line height: 59.79px;
+	line-height: 59.79px;
 	margin-bottom: 20px;
 }
 
@@ -324,6 +323,7 @@ body {
 .dishes {
 	margin-bottom: 150px;
 }
+
 .dishes-title {
 	font-family: 'Tinos';
 	font-style: normal;
@@ -347,8 +347,8 @@ body {
 
 .burgers-image {
 	margin-right: 20px;
-
 }
+
 .burger-item {
 	display: flex;
 	align-items: center;
@@ -409,12 +409,12 @@ body {
 
 .menu-subtext {
 	font-family: 'Open Sans';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 22px;
-		text-align: center;
-		color: #000000;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #000000;
 }
 
 .menu-btn {
@@ -436,6 +436,7 @@ body {
 	bottom: 1px;
 	right: 79px;
 }
+
 .menu-image {
 	position: relative;
 }
@@ -451,5 +452,119 @@ body {
 .menu-items {
 	display: flex; 
 	justify-content: center; 
+}
 
+/* Coment*/
+
+.coment {
+	padding-top: 104px;
+	padding-bottom: 139px; 
+	background-color: #C4C4C4;
+}
+
+.coment-text {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.coment-image{
+	text-align: center;
+}
+
+.coment-type {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	color: #000000;
+	text-align: center;
+}
+
+.coment-name {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	color: #000000;
+	text-align: center;
+	padding-top: 9px;
+}
+
+/* Galery*/
+
+.galery,
+.cook {
+	padding-top: 100px;
+}
+
+.galery-title {
+	font-family: 'Tinos';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 62px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.galery-title span {
+	color: #D67E34;
+}
+
+.galery-content {
+	display: flex;
+	justify-content: center;
+}
+
+.galery-left {
+	margin-right: 20px ;
+}
+
+.galery-down,
+.galery-up {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px; 
+}
+
+/* Cook*/
+
+.cook-title {
+	font-family: 'Tinos';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 62px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 60px;
+}
+
+.cook-title span {
+	color: #D67E34;
+}
+
+.cook-content {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.futer img {
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.futer p {
+	text-align: center;
 }
